@@ -5,6 +5,68 @@
 
 .header {
     background-color: #1F2937;
+    font-family: Roboto, sans-serif;
+    padding-bottom: 80px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo,
+.awesome {
+    padding: 30px 120px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-links {
+    display: flex;
+    gap: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.awesome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.awesome-button {
+    max-width: 400px;
+    padding-right: 60px;
+}
+
+.website-awesome {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 12px 0;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    padding: 8px 16px;
 }
 
 .info {
