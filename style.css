@@ -5,7 +5,7 @@
 
 .header {
     background-color: #1F2937;
-    font-family: Roboto, sans-serif;
+    font-family: Roboto, Verdana, sans-serif;
     padding-bottom: 80px;
 }
 
@@ -62,11 +62,16 @@ ul {
     margin: 12px 0;
 }
 
-button {
+.sign-up {
     background-color: #3882F6;
     color: #F9FAF8;
     border: none;
+    border-radius: 5px;
     padding: 8px 16px;
+}
+
+.info {
+    padding: 72px 0;
 }
 
 .info, 
@@ -78,7 +83,7 @@ button {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
-    padding: 32px 0;
+    padding-bottom: 32px;
 }
 
 .photos {
@@ -96,12 +101,49 @@ button {
 
 .quote {
     background-color: #E5E7EB;
+    text-align: left;
+    padding: 24px 280px;
+}
+
+.inspiring-quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quote .thor {
+    text-align: right;
+    font-size: 22px;
+    font-weight: 800;
+    padding: 12px 0;
 }
 
 .action {
-    
+    background-color: #3882F6;
+    margin: 48px 136px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 72px;
+}
+
+.call {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.action-button {
+    border: 3px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #F9FAF8;
+    padding: 4px 24px;
 }
 
 .footer {
     background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 22px;
 }
